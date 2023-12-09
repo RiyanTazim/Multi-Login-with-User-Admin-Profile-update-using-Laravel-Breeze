@@ -13,52 +13,25 @@
         <ul class="nav">
             <li class="nav-item nav-category">Main</li>
             <li class="nav-item">
-                <a href="{{route('admin.dashboard')}}" class="nav-link">
+                <a href="{{ route('admin.dashboard') }}" class="nav-link">
                     <i class="link-icon" data-feather="box"></i>
                     <span class="link-title">Dashboard</span>
                 </a>
             </li>
             <li class="nav-item nav-category">web apps</li>
-            <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="collapse" href="#emails" role="button" aria-expanded="false"
-                    aria-controls="emails">
-                    <i class="link-icon" data-feather="mail"></i>
-                    <span class="link-title">Email</span>
-                    <i class="link-arrow" data-feather="chevron-down"></i>
-                </a>
-                <div class="collapse" id="emails">
-                    <ul class="nav sub-menu">
-                        <li class="nav-item">
-                            <a href="pages/email/inbox.html" class="nav-link">Inbox</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="pages/email/read.html" class="nav-link">Read</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="pages/email/compose.html" class="nav-link">Compose</a>
-                        </li>
-                    </ul>
-                </div>
-            </li>
-            
-            <li class="nav-item">
-                <a href="pages/apps/calendar.html" class="nav-link">
-                    <i class="link-icon" data-feather="calendar"></i>
-                    <span class="link-title">Calendar</span>
-                </a>
-            </li>
+
             <li class="nav-item nav-category">Components</li>
             <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="collapse" href="#uiComponents" role="button" aria-expanded="false"
+                <a class="nav-link" data-bs-toggle="collapse" href="#uiComponent" role="button" aria-expanded="false"
                     aria-controls="uiComponents">
                     <i class="link-icon" data-feather="user"></i>
                     <span class="link-title">Profile Action</span>
                     <i class="link-arrow" data-feather="chevron-down"></i>
                 </a>
-                <div class="collapse" id="uiComponents">
+                <div class="collapse" id="uiComponent">
                     <ul class="nav sub-menu">
                         <li class="nav-item">
-                            <a href="{{route('admin.profile')}}" class="nav-link">Profile</a>
+                            <a href="{{ route('admin.profile') }}" class="nav-link">Profile</a>
                         </li>
                         <li class="nav-item">
                             <a href="{{ route('admin.change.password') }}" class="nav-link">Change Password</a>
@@ -76,7 +49,7 @@
                 <div class="collapse" id="uiComponents">
                     <ul class="nav sub-menu">
                         <li class="nav-item">
-                            <a href="{{route('admin.user.list')}}" class="nav-link"> User List</a>
+                            <a href="{{ route('admin.user.list') }}" class="nav-link"> User List</a>
                         </li>
                         <li class="nav-item">
                             <a href="{{ route('admin.change.password') }}" class="nav-link">Change Password</a>
@@ -84,26 +57,8 @@
                     </ul>
                 </div>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="collapse" href="#advancedUI" role="button"
-                    aria-expanded="false" aria-controls="advancedUI">
-                    <i class="link-icon" data-feather="anchor"></i>
-                    <span class="link-title">Advanced UI</span>
-                    <i class="link-arrow" data-feather="chevron-down"></i>
-                </a>
-                <div class="collapse" id="advancedUI">
-                    <ul class="nav sub-menu">
-                        <li class="nav-item">
-                            <a href="pages/advanced-ui/cropper.html" class="nav-link">Cropper</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="pages/advanced-ui/owl-carousel.html" class="nav-link">Owl carousel</a>
-                        </li>
-                        
-                    </ul>
-                </div>
-            </li>
-            
+
+
             <li class="nav-item nav-category">Docs</li>
             <li class="nav-item">
                 <a href="https://www.nobleui.com/html/documentation/docs.html" target="_blank" class="nav-link">
