@@ -51,9 +51,9 @@
                         <li class="nav-item">
                             <a href="{{ route('admin.user.list') }}" class="nav-link"> User List</a>
                         </li>
-                        <li class="nav-item">
+                        {{-- <li class="nav-item">
                             <a href="{{ route('admin.change.password') }}" class="nav-link">Change Password</a>
-                        </li>
+                        </li> --}}
                     </ul>
                 </div>
             </li>
